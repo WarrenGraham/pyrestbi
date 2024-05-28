@@ -9,7 +9,7 @@ def declare_app(app_id, tenant_id):
 
 def azure_login(app_id:str="ea0616ba-638b-4df5-95b9-636659ae5121", tenant_id:str)->list[str]:
     """
-    Login via user principal, using login and password to Microsoft PBI account. Browser window will be prompted. By default use @MDLZ 1st tenant and Microsoft Public app_id. 
+    Login via user principal, using login and password to Microsoft PBI account. Browser window will be prompted. By default use and Microsoft Public app_id. 
     """
 
     app = declare_app(app_id, tenant_id)
